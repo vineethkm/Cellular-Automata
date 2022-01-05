@@ -3,7 +3,7 @@ project(CellularAutomata LANGUAGES CXX C)
 
 message("This script is running") # Prints to the console
 
-add_executable(main src/main.cpp) # Source files to be compiled
+add_executable(main src/main.cpp src/application.cpp src/Grid.cpp) # Source files to be compiled
 
 target_include_directories(main PUBLIC include) # Header files to be included and compiled
 
