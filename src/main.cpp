@@ -2,7 +2,7 @@
 
 #define SFML_STATIC
 #include <SFML/Graphics.hpp>
-#include <Application.h>
+#include <Application.hpp>
 
 int main()
 {

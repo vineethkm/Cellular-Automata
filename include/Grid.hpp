@@ -1,7 +1,6 @@
 #ifndef __Grid__
 #define __Grid__
 
-#define SFML_STATIC
 #include <SFML/Graphics.hpp>
 #include <unordered_map>
 

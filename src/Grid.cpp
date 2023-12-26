@@ -1,4 +1,4 @@
-#include "Grid.h"
+#include "Grid.hpp"
 
 Grid::Grid(unsigned int rows, unsigned int columns, unsigned int offsetX, unsigned int offsetY, sf::RenderWindow* window): 
     mRows(rows), mColumns(columns), mWindow(window), mOffsetX(offsetX), mOffsetY(offsetY)

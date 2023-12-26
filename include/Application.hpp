@@ -1,10 +1,10 @@
 #ifndef __Application__
 #define __Application__
 
-#define SFML_STATIC
 #include <SFML/Graphics.hpp>
 #include <SFML/System.hpp>
-#include "Grid.h"
+#include <SFML/Window.hpp>
+#include "Grid.hpp"
 
 class Application
 {

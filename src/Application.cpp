@@ -1,4 +1,4 @@
-#include "Application.h"
+#include "Application.hpp"
 #include <iostream>
 
 Application::Application(unsigned width, unsigned height, char* name) : mWidth(width), mHeight(height)
